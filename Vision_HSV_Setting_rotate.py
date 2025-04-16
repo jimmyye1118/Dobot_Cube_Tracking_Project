@@ -13,7 +13,7 @@ def do_nothing(x):
 Video_num = 1
 kernel = np.ones((7, 7), np.uint8) 
 capture = cv2.VideoCapture(Video_num)
-
+img_mask = cv2.imread("mask.png")
 cX = 0
 cY = 0
 
